@@ -1,0 +1,20 @@
+{
+  "name": "yet-another-elixir-typescript-task",
+  "version": "1.0.0",
+  "description": "Just another Laravel Elixir task to compile Typescript.",
+  "main": "dist\\index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-if": "^2.0.1",
+    "gulp-typescript": "^2.13.6",
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-10"
+  }
+}
