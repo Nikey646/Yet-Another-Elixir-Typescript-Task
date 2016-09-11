@@ -6,6 +6,9 @@ Designed in a similar fashion to other Elixir Tasks, such as the [Webpack Task][
 Written in Typescript, for Typescript? :D
 
 ## Usage
+#### Register The Task
+To start using the Typescript task, you will need to register it. If using the `dist/index.js` file, simplying `require` the file. If using the `src/index.ts` or a custom compile version, you will need to `require` both the "index" and "TypescriptTask" files.
+
 #### Basic
 ```js
 elixir(function(mix) {
